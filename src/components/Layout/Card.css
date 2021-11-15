@@ -1,0 +1,23 @@
+.Card{
+    flex: 1;
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+
+    min-width: 300px; /* qnd o componente chegar na largura minima o componente quebra a linha (quando diminuir o tam da tela) */
+
+}
+.Card .Content{
+    flex: 1;
+    color: #000;
+    padding: 15px 0px;
+}
+.Card .Footer{
+    background-color: #000;
+    color: #fff;
+    padding: 5px 0px;
+}
