@@ -42,7 +42,7 @@ export default (props) => (
           <Card titulo="#05 - Condicional versão 1"color="#FA6850">
              <Condicional numero={11} />
           </Card>
-          <Card titulo="#04 - Repetição" color="#f6ca20">
+          <Card titulo="#04 - Repetição" color="#f6ca29">
              <Repeticao />
           </Card>
           <Card titulo="#03 - Componente com Filhos" color="#1b6535">
